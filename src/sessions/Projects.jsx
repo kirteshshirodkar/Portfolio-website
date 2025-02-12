@@ -10,7 +10,7 @@ export default function Projects() {
         {projects.map((items) => (
           <div
             key={items.title}
-            className="flex flex-row  items-center space-x-8 mb-25 max-sm:flex-col max-sm:pl-7 pl-20  "
+            className="flex flex-row text-center  items-center space-x-8 mb-25 max-sm:flex-col max-sm:pl-8 pl-20  "
           >
             <img
               src={items.img}
@@ -22,7 +22,7 @@ export default function Projects() {
                 <a href={items.link} className="hover:underline" target="main">{items.title}</a>
                 
               </h1>
-              <p className="text-xl">{items.note}</p>
+              <p className="text-xl max-sm:pr-8  ">{items.note}</p>
             </div>
           </div>
         ))}
