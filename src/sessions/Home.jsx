@@ -1,6 +1,6 @@
 import React from "react";
 import me from "../assets/me.png";
-//import { Link as LinkRouter } from "react-router-dom";
+import { Link as LinkRouter } from "react-router";
 //import { FaArrowRight } from "react-icons/fa6";
 export default function Home() {
   return (
@@ -33,9 +33,9 @@ export default function Home() {
           <p className="text-xl mb-5">
             Web Developer, specializing in React.Js
           </p>
-          <button className="text-xl border-2 px-7 py-2 rounded-3xl hover:bg-[#332e2e] hover:text-white duration-300">
+          <LinkRouter to={"/aboutme"} className="text-xl border-2 px-7 py-2 rounded-3xl hover:bg-[#332e2e] hover:text-white duration-300">
             About me
-          </button>
+          </LinkRouter>
         </div>
       </div>
     </div>
