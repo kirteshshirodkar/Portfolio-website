@@ -18,7 +18,7 @@ export default function Contact() {
         </p>
 
         <button className="bg-[#332e2e] text-white px-7 py-3 rounded-3xl hover:scale-110 duration-200  flex items-center ">
-          Email me{" "}
+          <a href="mailto:kirteshshirodkar8@email.com">Email me</a>
           <span className="ml-3">
             <VscSend size={25} />
           </span>
