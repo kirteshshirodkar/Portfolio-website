@@ -24,7 +24,7 @@ export default function Home() {
         <img
           src={me}
           alt=""
-          className="w-[400px] h-[500px] rounded-b-3xl max-[400px]:mt-7 max-[400px]:rounded-none max-[400px]:h-[450px]"
+          className="w-[400px] h-[500px] rounded-b-3xl max-[400px]:mt-7 max-[400px]:rounded-none max-[400px]:h-[470px]"
         />
         <div className="flex items-center justify-center flex-col max-[450px]:px-7">
           <h1 className="text-4xl font-medium my-5">
