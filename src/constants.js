@@ -6,7 +6,7 @@ export const navLinks = [
   // { label: "About Me", href: "About me" },
   { label: "Skills", href: "Skills" },
   { label: "Projects", href: "Projects" },
-  { label: "Experiance", href: "Experiance" },
+  { label: "Experience", href: "Experience" },
 ];
 
 export const skills = [

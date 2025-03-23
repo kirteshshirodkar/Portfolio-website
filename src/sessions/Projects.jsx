@@ -1,7 +1,6 @@
 import React from "react";
 import { projects } from "../constants";
 
-
 export default function Projects() {
   return (
     <div name="Projects" className="bg-[#fff7f3] text-[#332e2e] ">
@@ -12,20 +11,27 @@ export default function Projects() {
             key={items.title}
             className="flex flex-row text-center  items-center space-x-8 mb-25 max-sm:flex-col max-sm:pl-8 pl-20  "
           >
-          <a href={items.link}>
-            <img
-              src={items.img}
-              className="h-[400px] w-[800px] max-sm:h-[200px] max-sm:w-[300px] sm:max-lg:h-[200px] sm:max-lg:w-[300px] max-lg:rounded-2xl max-sm:mb-10 rounded-[60px]  shadow-black shadow-2xl"
-              alt=""
-            />
+            <a href={items.link}>
+              <img
+                src={items.img}
+                className="h-[400px] w-[800px] max-sm:h-[200px] max-sm:w-[300px] sm:max-lg:h-[200px] sm:max-lg:w-[300px] max-lg:rounded-2xl max-sm:mb-10 rounded-[60px]  shadow-black shadow-2xl"
+                alt=""
+              />
             </a>
-            
+
             <div>
-              <h1 className="text-2xl font-medium ">
-                <a href={items.link} className="hover:underline" target="main">{items.title}</a>
-                
-              </h1>
-              <p className="text-xl max-sm:pr-8  ">{items.note}</p>
+              <p className="text-xl max-sm:pr-8  ">
+                <h1 className="text-2xl font-medium ">
+                  <a
+                    href={items.link}
+                    className="hover:underline"
+                    target="main"
+                  >
+                    {items.title}
+                  </a>
+                </h1>
+                {items.note}
+              </p>
             </div>
           </div>
         ))}
