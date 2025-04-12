@@ -25,6 +25,7 @@ export default function Footer() {
           <LinkRouter className="hover:underline" key={items.title} to={items.link} >{items.title}</LinkRouter>
         ))}
       </div>
+      <p className=" flex justify-start mt-10 text-[15px] ">kirteshshirodkar8@gmail.com, 7350391905</p>
     </footer>
   );
 }

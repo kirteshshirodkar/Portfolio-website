@@ -20,8 +20,10 @@ export default function Navbar() {
       </div>
 
       <div className="flex flex-row space-x-10 max-sm:space-x-4 max-sm:text-[13px] max-lg:mt-5 max-sm:py-5 max-sm:border-t-2 max-sm:border-b-2 text-xl justify-center items-center font-sans ">
-        <LinkRouter className="hover:underline cursor-pointer" to={"/"}>Home</LinkRouter>
-        <LinkRouter className="hover:underline cursor-pointer" to={"/aboutme"}>About Me</LinkRouter>
+        <LinkRouter className="hover:underline cursor-pointer" to={"/"}>
+          Home
+        </LinkRouter>
+
         {navLinks.map((items) => (
           <Link
             key={items.label}
@@ -33,6 +35,9 @@ export default function Navbar() {
             {items.label}
           </Link>
         ))}
+        <LinkRouter className="hover:underline cursor-pointer" to={"/aboutme"}>
+          About Me
+        </LinkRouter>
       </div>
     </div>
   );
