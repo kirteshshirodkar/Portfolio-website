@@ -20,7 +20,7 @@ export default function AboutMe() {
             <p className="mb-10">
               a passionate Front-End Developer based in Goa, India. Currently
               pursuing my Masters of Computer Applications (MCA) Garden City
-              Univercity Bengalore, I have a strong foundation in programming
+              University Bangalore, I have a strong foundation in programming
               and a keen interest in creating seamless, user-friendly web
               experiences.
             </p>
